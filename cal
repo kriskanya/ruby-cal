@@ -2,7 +2,7 @@
 
 require_relative 'lib/month'
 
-month = ARGV[0].to_i
+month = ARGV[0].to_i   #ARGV gets the input from the command line, comes in as an array
 year = ARGV[1].to_i
 
 month = Month.new(month, year)
